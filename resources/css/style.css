@@ -1,0 +1,613 @@
+
+/* This is the Universal styling */
+
+html,body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    word-spacing: 1px;
+    overflow-x: hidden;
+}
+
+/* Color Palette
+  #49494b (73,73,75) Onyx
+  #bd8c7d (189, 140, 125) Rose Gold
+  #d1bfa7 (209, 191, 167) Soft Gold
+  #8e8e90 (142, 142, 144) Silver */
+
+/* Display: flex; */
+.banner, .banner .img-box, .start, .start-here, .about, .img-box, .text, .info, .orientation, .our-campus, .lecture, .information, .learning, .learn, .courses, .course-name, .course-name, .thesis, .exhibit, .exhibition, .video-text, .exhibitions, .exhibit-info, footer, .copyright, .terms {
+  display: flex;
+}
+
+/* Width: 100%; */
+header, .header, .navigation-desktop .navigation, .img img, .start-here .button, .img-box, .img-box img, .orientation, .our-campus, .lecture, .learn, .courses, .course-name, .course-name, .courses div img, .exhibit, .exhibition, .video, .video video, .exhibitions div, footer {
+  width: 100%;
+}
+
+/* Background-color: #49494b; */
+body {
+  background-color: #49494b;
+}
+header {
+  background-color: #49494b;
+}
+/* This is the font styles */
+.font-style-one {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-weight: 700;
+  color: #bd8c7d;
+}
+.font-style-two {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-weight: 700;
+  color: #d1bfa7;
+}
+.font-style-three {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-weight: 400;
+  color: #bd8c7d;
+}
+.font-style-four {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #8e8e90;
+}
+.font-style-five {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  color: #8e8e90;
+}
+
+img, video {
+  border: 3px solid #d1bfa7;
+}
+/* This is the header styling */
+header {
+  display: flex;
+  height: 64px;
+  position: fixed;
+  z-index: 2;
+  border-bottom: 3px solid #d1bfa7;
+}
+
+.header {
+  display: flex;
+  height: 64px;
+}
+
+.school-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+
+.school-logo img {
+  margin-left: 24px;
+  margin-right: 12px;
+  height: 2.5rem;
+  width: auto;
+}
+
+.school-logo span {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.navigation-desktop {
+  display: flex;
+  width: 50%;
+  margin-right: 24px;
+}
+
+.navigation-desktop .navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation ul {
+  display: flex;
+  margin-right: 24px;
+  text-decoration: none;
+}
+
+.navigation ul li {
+  margin-left: 16px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition-property: color;
+}
+
+ul li a:hover {
+  color: #d1bfa7;
+  font-style: italic;
+  font-weight: 600;
+  transition: color 0.5s linear;
+}
+
+
+/* This is the banner styling */
+.banner {
+  position: relative;
+  margin-top: 64px;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  border-bottom: 3px solid #d1bfa7;
+}
+
+.img-box {
+  flex-direction: column;
+  width: 60%;
+}
+
+.start {
+  width: 40%;
+  margin-left: 32px;
+}
+
+.start-here {
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-here h1  {
+  font-size: 3rem;
+  line-height: 1.25;
+  letter-spacing: 1px;
+}
+
+.start-here p {
+  font-size: 2rem;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  line-height: 1.25;
+}
+
+.start-here span {
+  font-size: 1.5rem;
+}
+
+.start-here .button {
+  height: 3rem;
+  padding-top: 16px;
+  text-align: center;
+  background-color: #d1bfa7;
+  border: 2px solid #bd8c7d;
+  transition-property: background-color;
+  transition: background-color 2s ease 0.2s;
+}
+
+.start-here a:hover {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.button a {
+  margin: 8px auto;
+  text-decoration: none;
+  color: #49494b;
+  transition: color 0.5s linear;
+}
+
+/* This is the about us section */
+.about {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  border-bottom: 3px solid #d1bfa7;
+}
+
+.text {
+  flex-direction: column;
+}
+
+.text h2, .text p {
+  margin-top: 24px;
+  letter-spacing: 1px;
+  font-size: 3.5rem;
+}
+
+.text p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.text h5 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.info {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 32px;
+}
+
+.info div img {
+  width: 35%;
+  height: 35%;
+}
+
+.information a:hover {
+  color: #d1bfa7;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.information {
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 65%;
+}
+
+.information h3 {
+  font-size: 1.375rem;
+  letter-spacing: 1px;
+}
+
+.information p {
+ font-size: 1.25rem;
+ text-decoration: none;
+ line-height: 1.5;
+}
+
+.information a {
+  font-size: 1.10rem;
+  text-decoration: none;
+  line-height: 1.5;
+  transition: color 0.5s linear;
+}
+
+/* This is the learning section */
+.learning {
+  flex-direction: column;
+  width: 90%;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  border-bottom: 3px solid #d1bfa7;
+}
+
+.learn {
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.learn h2 {
+  font-size: 3.5rem;
+}
+
+.courses {
+  flex-direction: column;
+}
+
+.course-name {
+  flex-direction: row;
+  margin-bottom: 32px;
+}
+
+.course-name div {
+  width: 33%;
+  height: auto;
+  margin-right: 32px;
+}
+
+.course-info h3 {
+  font-size: 1.5rem;
+  margin-left: 16px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.course-info h4 {
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 16px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.course-info p {
+  font-size: 1.075rem;
+  text-decoration: none;
+  line-height: 1.5;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.courses div img {
+  height: auto;
+}
+
+/* This is the thesis exhibit section */
+.thesis {
+  flex-direction: column;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.exhibit {
+  flex-direction: column;
+  align-items: center;
+}
+
+.exhibit h2 {
+  margin-bottom: 24px;
+  font-size: 3.5rem;
+}
+
+.exhibitions {
+  margin-left: 32px;
+}
+
+.video-text {
+  flex-direction: column;
+}
+
+.video-text h3 {
+  font-size: 2.5rem;
+  margin-top: 24px;
+  letter-spacing: 1px;
+}
+
+.video-text p {
+  font-size: 1.25rem;
+  margin-top: 24px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.exhibitions {
+  flex-direction: column;
+  width: 40%;
+}
+
+.exhibitions div {
+  display: flex;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.exhibitions div img {
+  width: 35%;
+  height: 35%;
+  margin-left: 16px;
+}
+
+.exhibit-info h3, .exhibit-info p {
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.fisma {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.fisma:hover {
+}
+
+.now-then {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.now-then:hover {
+}
+
+.exhibit-info {
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 24px;
+  width: 65%;
+}
+
+.exhibit-info:hover, .exhibit-info h3:hover, .exhibit-info p:hover {
+  color: #d1bfa7;
+}
+
+.exhibit-info h3 {
+  font-size: 1.375rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.exhibit-info p {
+  font-size: 1.25rem;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+/* This is the footer section */
+footer  {
+  flex-direction: row;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-top: 3px solid #d1bfa7;
+}
+
+.copyright {
+  flex-direction: column;
+  width: 50%;
+  margin-left: 24px;
+}
+
+.copyright span {
+  font-size: 1rem;
+}
+
+.terms {
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 24px;
+}
+
+.terms h5 a {
+  margin-left: 16px;
+  margin-right: 24px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* This is the media query section */
+/* Tablet/laptop/desktop */
+@media only screen and (min-device-width: 667px){
+/* Styles */
+  .navigation-mobile {
+  display: none;
+  }
+  .mobile {
+    display: none;
+  }
+}
+/* Mobile section */
+@media only screen and (max-device-width: 667px) {
+/* Styles applicable across multiple sections */
+  /* Display: none */
+  .school-logo, .navigation-desktop, .about .img-box, .course-name div img, .course-name div img, .course-info h4, .course-info p, .video-text, .exhibitions, footer .terms {
+    display: none;
+  }
+  .desktop  {
+   display: none;
+ }
+  /* Width of 100% */
+  .navigation-mobile, .img-box, .banner .img-box img, .start, .banner, start-here .button, .info, .info div, .info div img, .learning, .courses, .course-name, .course-name, .course-name div, .course-name div, .thesis, .thesis .exhibit, .demonstration, .video, .video video {
+    width: 100%;
+  }
+  /* Width of 90% */
+  .copyright, .course-info h3 {
+    width: 90%;
+  }
+  /* Flex direction: Column */
+  .banner, .info div, .courses, .course-name, .course-name {
+    flex-direction: column;
+  }
+  /* Padding-left: 0px */
+  .banner, .info div img, .learning, .learn, .thesis, footer {
+    padding-left: 0px;
+  }
+  /* Margin-bottom: 0px */
+  .start-here p, .learn, .course-name {
+    margin-bottom: 0px;
+  }
+  /* Border: none */
+  .start, .info, .demonstration {
+    border: none;
+  }
+  /* Border-bottom: 1px solid #d4d4dc; (silverfox) */
+  .navigation-mobile, .banner .img-box img {
+   border-bottom: 1px solid #d4d4dc;
+  }
+  /* Header styles */
+  .header, .navigation-mobile {
+    display: flex;
+  }
+   .navigation-mobile {
+    justify-content: space-around;
+  }
+  .navigation-mobile img {
+    height: 2.75rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  /*Banner styles*/
+  .img-box {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .start {
+    margin-left: 0px;
+  }
+  .start-here h1 {
+    font-size: 2rem;
+  }
+  .start-here h1, .start-here p {
+    padding-top: 32px;
+  }
+  .start-here p {
+    margin-top: 0px;
+    padding-bottom: 24px;
+    font-size: 1rem;
+  }
+  .start-here .button {
+    margin-top: 16px;
+    height: 2rem;
+    }
+  .button a {
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+  /*About Us Styles*/
+  .about {
+    padding-bottom: 0px;
+  }
+  .info {
+    margin-left: 0px;
+  }
+  .info div {
+    padding-bottom: 16px;
+  }
+  .lecture {
+    background-color: #d1bfa7;
+  }
+  .information h3 {
+   font-size: 1.5rem;
+   margin-top: 16px;
+   margin-bottom: 16px;
+  }
+  .information p {
+   font-size: 1.2rem;
+   margin-bottom: 16px;
+  }
+  .information a {
+   font-size: 1.1rem;
+  }
+  .course-name div, .course-name div {
+    border: 1px;
+  }
+  .course-info h3 {
+    height: 2rem;
+    padding-top: 16px;
+    text-align: center;
+    color: #49494b;
+    background-color: #d1bfa7;
+    border-radius: 0px;
+    transition-property: border-radius;
+  }
+  .course-info h3:hover {
+    border-radius: 10px;
+    transition: border-radius 0.5s linear 0s;
+  }
+  .learn h2, .exhibit h2 {
+    font-size: 2rem;
+  }
+}

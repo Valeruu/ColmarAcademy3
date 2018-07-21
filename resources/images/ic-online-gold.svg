@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30px"
+   height="28px"
+   viewBox="0 0 30 28"
+   version="1.1"
+   id="svg5931"
+   sodipodi:docname="ic-online-gold.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata5935">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ic_online</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     id="namedview5933"
+     showgrid="false"
+     inkscape:zoom="8.4285714"
+     inkscape:cx="-4.2796611"
+     inkscape:cy="14"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5931" />
+  <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title5906">ic_online</title>
+  <desc
+     id="desc5908">Created with Sketch.</desc>
+  <defs
+     id="defs5923">
+    <filter
+       x="-50%"
+       y="-50%"
+       width="200%"
+       height="200%"
+       filterUnits="objectBoundingBox"
+       id="filter-1">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset5910" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur5912" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix5914" />
+      <feMerge
+         id="feMerge5920">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode5916" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode5918" />
+      </feMerge>
+    </filter>
+    <filter
+       x="-0.5"
+       y="-0.5"
+       width="2"
+       height="2"
+       filterUnits="objectBoundingBox"
+       id="filter-1-8">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset5910-6" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur5912-0" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix5914-7" />
+      <feMerge
+         id="feMerge5920-7">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode5916-8" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode5918-5" />
+      </feMerge>
+    </filter>
+    <filter
+       x="-0.5"
+       y="-0.5"
+       width="2"
+       height="2"
+       filterUnits="objectBoundingBox"
+       id="filter-1-8-8">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset5910-6-5" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur5912-0-2" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix5914-7-5" />
+      <feMerge
+         id="feMerge5920-7-3">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode5916-8-5" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode5918-5-1" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g
+     transform="matrix(1.0666346,0,0,1.042426,-0.76223181,2.7112269)"
+     style="fill:#bd8c7d;fill-opacity:1;fill-rule:evenodd;stroke:#d1bfa7;stroke-width:0.45513788;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="OPt-2-8-9">
+    <g
+       style="fill:#bd8c7d;fill-opacity:1;stroke:#d1bfa7;stroke-width:0.45513788;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="prog2_pro3_Mobile-Portrait_opt2-Copy-2-4-5"
+       transform="translate(-185,-17)">
+      <g
+         id="nav-3-1"
+         style="fill:#bd8c7d;fill-opacity:1;stroke:#d1bfa7;stroke-width:0.45513788;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <g
+           style="fill:#bd8c7d;fill-opacity:1;stroke:#d1bfa7;stroke-width:0.45513788;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter-1-8-8)"
+           id="Group-6-2-1">
+          <g
+             id="ic_online-2-0"
+             transform="translate(189,19)"
+             style="fill:#bd8c7d;fill-opacity:1;stroke:#d1bfa7;stroke-width:0.45513788;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+            <path
+               inkscape:connector-curvature="0"
+               d="M 20,12 H 2 V 2 H 20 Z M 20,0 H 2 C 0.89,0 0,0.89 0,2 v 12 c 0,1.10457 0.8954305,2 2,2 h 7 l -2,3 v 1 h 8 v -1 l -2,-3 h 7 c 1.104569,0 2,-0.89543 2,-2 V 2 C 22,0.89 21.1,0 20,0 Z"
+               id="Shape-5-9"
+               style="fill:#bd8c7d;fill-opacity:1;stroke:#d1bfa7;stroke-width:0.45513788;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
